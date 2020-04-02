@@ -21,7 +21,7 @@
         <servlet-name>default</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-    <!--
+    
     <servlet>
         <servlet-name>jsp</servlet-name>
         <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
@@ -41,7 +41,7 @@
         <url-pattern>*.jsp</url-pattern>
         <url-pattern>*.jspx</url-pattern>
     </servlet-mapping>
-    -->
+    
     
     <session-config>
         <session-timeout>
