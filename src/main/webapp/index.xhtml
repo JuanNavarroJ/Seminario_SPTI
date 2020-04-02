@@ -31,12 +31,12 @@
         <div class="form">
             <h:form prependId="false">
                 <label for="email">Email</label>
-                <p:inputText id="username" required="true" value=""/>
+                <p:inputText id="username" required="true" value="#{userBean.username}"/>
 
                 <label for="email">Password</label>
-                <p:password id="password" required="true" value=""/>
-                <p:commandButton id="ingresar" value="Login" action="" >
-                    <f:actionListener binding=""/>
+                <p:password id="password" required="true" value="#{userBean.password}"/>
+                <p:commandButton id="ingresar" value="Login" action="#{userBean.doLogin()}" >
+                    <f:actionListener binding="#{recursoBean.setUsuario(userBean.username)}" update="frmm2"/>
                 </p:commandButton>
 				<p:messages id="messages" showDetail="true" closable="true">
 				<p:autoUpdate />
