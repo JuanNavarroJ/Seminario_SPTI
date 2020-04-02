@@ -40,6 +40,7 @@
         <servlet-name>jsp</servlet-name>
         <url-pattern>/</url-pattern>
         <url-pattern>*.jsp</url-pattern>
+        <url-pattern>*.jspx</url-pattern>
     </servlet-mapping>
     
     
