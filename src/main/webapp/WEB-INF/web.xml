@@ -39,6 +39,7 @@
     <servlet-mapping>
         <servlet-name>jsp</servlet-name>
         <url-pattern>/</url-pattern>
+        <url-pattern>*.jsp</url-pattern>
     </servlet-mapping>
     
     
